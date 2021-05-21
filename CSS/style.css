@@ -5,6 +5,20 @@ body{
     font-family: sans-serif;
     
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E4F6F6;
+}
+
+.navbar{
+    padding-bottom: 30px;
+    padding-top: 15px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 h1{
     font-size: 2.5rem;
@@ -54,17 +68,6 @@ p{
     line-height: 2;
 }
 
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 40px;
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
-}
 
 .skill-row{
     width: 50%;
@@ -150,4 +153,23 @@ hr{
    -moz-border-radius: 20px;
    border-radius: 20px;
    text-decoration: none;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+.fa-twitter {
+
+  color: black;
+}
+.fa-linkedin{
+    color: black;
+}
+.fa-hackerrank {
+    color: black;
+    font-size: 30px;
 }
