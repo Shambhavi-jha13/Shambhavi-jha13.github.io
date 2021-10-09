@@ -5,33 +5,32 @@ body{
     font-family: sans-serif;
     
 }
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #E4F6F6;
 }
 
 .navbar{
     padding-bottom: 30px;
-    padding-top: 15px;
+    padding-top: 0;
     margin: auto;
     font-family: 'Poppins', sans-serif;
 }
 
-
 h1{
-    font-size: 2.5rem;
+    font-size: 70px;
     line-height: 2;
     margin-top: 0px;
     font-family: 'Lobster', cursive;
-    color: #66BFBF;
+    color: white;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Caveat', cursive;
-    color: #66BFBF;
+    color: white;
     font-weight: normal;
     padding-bottom: 10px;
 }
@@ -50,24 +49,42 @@ a:hover{
     color: #eaf6f6;
 }
 
-.top-container{
-    background-color: #E4F6F6;
-    padding: 100px;
+.my-img{
+    image-resolution: 300dpi;
+    margin-bottom: 30px;
 }
 
+.top-container{
+    background-color: #664E88;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px 100px 100px 100px;
+}
+
+.profile{
+    background-color: #FFFEB7;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 .middle-container{
-    margin: 70px 0;
+    margin: 0;
 }
 
 .bottom-container{
-    background-color: #66BFBF;
+    background-color: #664E88;
     padding: 50px 0 20px;
 }
 
 p{
     line-height: 2;
+    color: #000;
 }
 
+.skills{
+    
+    background-size: cover;
+}
 
 .skill-row{
     width: 50%;
@@ -85,14 +102,6 @@ p{
     width: 25%;
     float: right;
     margin-left: 20px;
-}
-
-hr{ 
-    border-color: grey;
-    border-style: dotted none none;
-    width: 5%;
-    border-width: 5px;
-    margin: 70px auto;
 }
 
 .bottom-txt-color{
@@ -154,6 +163,7 @@ hr{
    border-radius: 20px;
    text-decoration: none;
 }
+
 .fa {
   padding: 10px;
   font-size: 30px;
